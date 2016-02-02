@@ -1,0 +1,50 @@
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.DAL.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.DAL.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.csprojResolveAssemblyReference.cache
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.DAL.dll.config
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Contracts.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Models.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Contracts.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Models.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.Migrations.Initial.resources
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.csproj.GenerateResource.Cache
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.DAL.dll.config
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.DAL.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.DAL.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Contracts.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Models.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Contracts.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Models.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.csprojResolveAssemblyReference.cache
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.Migrations.Initial.resources
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.csproj.GenerateResource.Cache
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.Migrations.AddCostPrice.resources
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.DAL.dll.config
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.DAL.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.DAL.pdb
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Contracts.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Models.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Contracts.pdb
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\SampleMVCSite.Models.pdb
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.csprojResolveAssemblyReference.cache
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.Contracts.Migrations.Initial.resources
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.Contracts.Migrations.AddCostPrice.resources
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.csproj.GenerateResource.Cache
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.DAL\obj\Debug\SampleMVCSite.DAL.pdb

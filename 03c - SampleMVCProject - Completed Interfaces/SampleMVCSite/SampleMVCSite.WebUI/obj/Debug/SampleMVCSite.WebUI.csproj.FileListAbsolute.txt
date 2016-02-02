@@ -1,0 +1,237 @@
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\csc.exe
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\vbc.exe
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.WebUI.dll.config
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.WebUI.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.WebUI.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Owin.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Helpers.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Mvc.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Optimization.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Razor.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\WebGrease.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Helpers.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Mvc.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Optimization.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Razor.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\obj\Debug\SampleMVCSite.WebUI.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\obj\Debug\SampleMVCSite.WebUI.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Contracts.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.DAL.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Models.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Contracts.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.DAL.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Models.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\obj\Debug\SampleMVCSite.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\csc.exe
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\vbc.exe
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.WebUI.dll.config
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.WebUI.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.WebUI.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Owin.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Contracts.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.DAL.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Models.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Helpers.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Mvc.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Optimization.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Razor.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\WebGrease.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Contracts.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.DAL.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Models.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Helpers.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Mvc.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Optimization.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Razor.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\obj\Debug\SampleMVCSite.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\obj\Debug\SampleMVCSite.WebUI.dll
+C:\Users\dredgedorlok\Desktop\DEV\15 - C# Web Dev Techniques\03a - SampleMVCProject\SampleMVCSite\SampleMVCSite.WebUI\obj\Debug\SampleMVCSite.WebUI.pdb
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\csc.exe
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\vbc.exe
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.WebUI.dll.config
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.WebUI.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.WebUI.pdb
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Owin.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Contracts.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.DAL.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Models.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Helpers.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Mvc.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Optimization.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Razor.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\WebGrease.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Contracts.pdb
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.DAL.pdb
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\SampleMVCSite.Models.pdb
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Helpers.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Mvc.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Optimization.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.Razor.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\obj\Debug\SampleMVCSite.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\obj\Debug\SampleMVCSite.WebUI.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\obj\Debug\SampleMVCSite.WebUI.pdb
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Practices.Unity.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\WebActivatorEx.dll
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Practices.Unity.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\sahyslop\Desktop\03c - SampleMVCProject - Completed Interfaces\SampleMVCSite\SampleMVCSite.WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml

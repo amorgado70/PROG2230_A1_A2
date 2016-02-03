@@ -2,3 +2,4 @@ G:\_PROG2230 ASP NET\A1_A2\ConstellationStore\ConstellationStore.Contracts\bin\D
 G:\_PROG2230 ASP NET\A1_A2\ConstellationStore\ConstellationStore.Contracts\bin\Debug\ConstellationStore.Contracts.pdb
 G:\_PROG2230 ASP NET\A1_A2\ConstellationStore\ConstellationStore.Contracts\obj\Debug\ConstellationStore.Contracts.dll
 G:\_PROG2230 ASP NET\A1_A2\ConstellationStore\ConstellationStore.Contracts\obj\Debug\ConstellationStore.Contracts.pdb
+G:\_PROG2230 ASP NET\A1_A2\ConstellationStore\ConstellationStore.Contracts\obj\Debug\ConstellationStore.Contracts.csprojResolveAssemblyReference.cache

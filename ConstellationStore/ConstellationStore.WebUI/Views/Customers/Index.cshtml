@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ConstellationStore.Models.Customer>
+@model IEnumerable<ConstellationStore.Models.Customer>
 
 @{
     ViewBag.Title = "Index";
@@ -14,6 +14,9 @@
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.CustomerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PictureUrl)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Address1)
@@ -43,6 +46,9 @@
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.CustomerName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PictureUrl)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Address1)

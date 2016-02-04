@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -47,7 +47,7 @@ namespace ConstellationStore.WebUI.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "CustomerId,CustomerName,Address1,Address2,Town,PostalCode,HomePhone,BusinessPhone,EmailAddress")] Customer customer)
+        public ActionResult Create([Bind(Include = "CustomerId,CustomerName,PictureUrl,Address1,Address2,Town,PostalCode,HomePhone,BusinessPhone,EmailAddress")] Customer customer)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace ConstellationStore.WebUI.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "CustomerId,CustomerName,Address1,Address2,Town,PostalCode,HomePhone,BusinessPhone,EmailAddress")] Customer customer)
+        public ActionResult Edit([Bind(Include = "CustomerId,CustomerName,PictureUrl,Address1,Address2,Town,PostalCode,HomePhone,BusinessPhone,EmailAddress")] Customer customer)
         {
             if (ModelState.IsValid)
             {

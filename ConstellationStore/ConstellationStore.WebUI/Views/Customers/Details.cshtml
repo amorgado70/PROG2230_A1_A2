@@ -1,4 +1,4 @@
-﻿@model ConstellationStore.Models.Customer
+@model ConstellationStore.Models.Customer
 
 @{
     ViewBag.Title = "Details";
@@ -17,6 +17,14 @@
 
         <dd>
             @Html.DisplayFor(model => model.CustomerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PictureUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PictureUrl)
         </dd>
 
         <dt>

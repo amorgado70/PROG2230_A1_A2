@@ -1,15 +1,41 @@
 ﻿@model IEnumerable<ConstellationStore.Models.Product>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Products Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Products Index</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+<div class="container">
+    @foreach (var item in Model)
+    {
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive img-rounded" src="@Html.DisplayFor(modelItem => item.ImageUrl)" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>@Html.DisplayFor(modelItem => item.Description)</h3>
+                <h4>@Html.DisplayFor(modelItem => item.Price)</h4>
+                <p>@Html.DisplayFor(model => item.CostPrice)</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+                @Html.ActionLink("Edit", "Edit", new { id = item.ProductId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ProductId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ProductId })
+
+            </div>
+        </div>
+    <!-- /.row -->
+        <hr>
+    }
+</div>
 <table class="table">
     <tr>
         <th>
@@ -27,27 +53,30 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Description)
-        </td>
-        <td>
-            <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" alt="Smiley face" height="42" width="42">
-            
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Price)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CostPrice)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ProductId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ProductId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ProductId })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" alt="" height="42" width="42">
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CostPrice)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ProductId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ProductId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ProductId })
+            </td>
+        </tr>
+    }
 
 </table>
+
+

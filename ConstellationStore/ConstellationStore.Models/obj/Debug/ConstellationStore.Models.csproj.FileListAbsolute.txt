@@ -7,3 +7,4 @@ G:\_PROG2230 ASP NET\A1_A2\ConstellationStore\ConstellationStore.Models\bin\Debu
 G:\_PROG2230 ASP NET\A1_A2\ConstellationStore\ConstellationStore.Models\bin\Debug\ConstellationStore.Models.pdb
 G:\_PROG2230 ASP NET\A1_A2\ConstellationStore\ConstellationStore.Models\obj\Debug\ConstellationStore.Models.dll
 G:\_PROG2230 ASP NET\A1_A2\ConstellationStore\ConstellationStore.Models\obj\Debug\ConstellationStore.Models.pdb
+G:\_PROG2230 ASP NET\A1_A2\ConstellationStore\ConstellationStore.Models\obj\Debug\ConstellationStore.Models.csprojResolveAssemblyReference.cache

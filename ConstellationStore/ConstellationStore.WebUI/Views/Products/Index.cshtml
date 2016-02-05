@@ -5,23 +5,37 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Products Index</h2>
+<h2 class="margin-top-10">Products Index</h2>
 <div class="container">
-    <div class="row">
+    <div class="row margin-top-10">
         <div class="col-md-7">
+            <div class="row">
+                <div class="col-xs-9">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <p>
+                            @Html.TextBox("SearchString", null, new { id = "SearchString", @class = "form-control" })
+                        </p>
+                    }
+                </div>
+                <div class="col-xs-2 btn btn-primary">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </div>
+            </div>
         </div>
         <div class="col-md-5">
-            <a href="@Url.Action("Create", "Products")" class="btn btn-primary">
+            <a href="@Url.Action("Create", "Products")" class="btn btn-primary pull-right">
                 Create New &nbsp;
                 <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
             </a>
         </div>
     </div>
-    <hr>
 </div>
 <div class="container">
     @foreach (var item in Model)
     {
+        <hr>
         <div class="row">
             <div class="col-md-7">
                 <a href="#">
@@ -30,8 +44,8 @@
             </div>
             <div class="col-md-5">
                 <h3>@Html.DisplayFor(modelItem => item.Description)</h3>
-                <h4>@Html.DisplayFor(modelItem => item.Price)</h4>
-                <p>@Html.DisplayFor(model => item.CostPrice)</p>
+                <h4>Price: CDN$@Html.DisplayFor(modelItem => item.Price)</h4>
+                <h4>Cost Price: CDN$@Html.DisplayFor(model => item.CostPrice)</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
                 <a href="@Url.Action("Details", "Products", new { id = item.ProductId })" class="btn btn-primary">
                     Details
@@ -48,6 +62,5 @@
             </div>
         </div>
     <!-- /.row -->
-        <hr>
     }
 </div>

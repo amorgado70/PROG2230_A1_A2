@@ -17,7 +17,7 @@ body{
     color: #0A4600;
 }
 .panel-default{
-	border-color: #0A4600;
+	border-color: #1E6912;
 }
 .panel-default > .panel-heading {
 	background-color: #0D4F48;
@@ -37,7 +37,16 @@ body{
 	background-color: #96D38D;
 	color: #0A4600;
 }
-
+.btn-primary{
+	background-color: #0D4F48;
+	border-color: #1E6912;
+	color: #64B058;
+}
+.btn-primary:hover{
+	background-color: #00352F;
+	border-color: #1E6912;
+	color: #64B058;
+}
 .page-header{
 	border-bottom-color: #1E6912;
 }

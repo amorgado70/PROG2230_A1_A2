@@ -56,7 +56,10 @@
                     </div>
                     <div class="panel-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        @Html.ActionLink("More...", "Index", "Customers", new object { }, new { @class = "btn btn-default" })
+                        <a href="@Url.Action("Index", "Customers")" class="btn btn-primary">
+                            More &nbsp;
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -67,7 +70,10 @@
                     </div>
                     <div class="panel-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        @Html.ActionLink("More...", "Index", "Products", new object { }, new { @class = "btn btn-default" })
+                        <a href="@Url.Action("Index", "Products")" class="btn btn-primary">
+                            More &nbsp;
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -78,7 +84,10 @@
                     </div>
                     <div class="panel-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        @Html.ActionLink("More...", "Index", "Orders", new object { }, new { @class = "btn btn-default" })
+                        <a href="@Url.Action("Index", "Orders")" class="btn btn-primary">
+                            More &nbsp;
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
                     </div>
                 </div>
             </div>

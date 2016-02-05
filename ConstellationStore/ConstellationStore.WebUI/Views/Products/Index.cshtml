@@ -36,6 +36,7 @@
     @foreach (var item in Model)
     {
         <hr>
+        <a href="#" class="glyphicon glyphicon-chevron-up pull-right"></a>
         <div class="row">
             <div class="col-md-7">
                 <a href="#">
@@ -58,7 +59,7 @@
                 <a href="@Url.Action("Delete", "Products", new { id = item.ProductId })" class="btn btn-primary">
                     Remove &nbsp;
                     <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-                </a>
+                </a>                
             </div>
         </div>
     <!-- /.row -->

@@ -37,13 +37,13 @@ body{
 	background-color: #96D38D;
 	color: #0A4600;
 }
-.carousel-caption{
-	background: rgba(25, 25, 25, .3);
-	color: #96D38D;
-}
+
 .page-header{
 	border-bottom-color: #1E6912;
 }
 hr{
 	border-top-color: #1E6912;
+}
+input, select, textarea {
+    max-width: 1280px;
 }

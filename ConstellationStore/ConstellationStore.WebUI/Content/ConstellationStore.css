@@ -46,6 +46,7 @@ a, a:hover{
 	background-color: #0D4F48;
 	border-color: #1E6912;
 	color: #64B058;
+	margin: 0.5em 0em;
 }
 .btn-default:hover,
 .btn-primary:hover{
@@ -71,8 +72,21 @@ input, select, textarea {
 	height: 200px;
 }
 .customer-body{
-	height: 350px;
+	height: 380px;
 }
+@media (max-width: 960px) {
+    .customer-body{
+	height: 420px;
+}
+}
+@media (max-width: 1280px) {
+    .customer-body{
+	height: 460px;
+}
+}
+
+
+
 .margin-top-05 { margin-top: 0.5em; }
 .margin-top-10 { margin-top: 1.0em; }
 .margin-top-15 { margin-top: 1.5em; }

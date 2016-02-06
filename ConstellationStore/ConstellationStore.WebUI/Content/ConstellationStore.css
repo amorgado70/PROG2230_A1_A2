@@ -84,8 +84,9 @@ input, select, textarea {
 	height: 460px;
 }
 }
-
-
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td{
+	border-top-color: #1E6912;
+}
 
 .margin-top-05 { margin-top: 0.5em; }
 .margin-top-10 { margin-top: 1.0em; }

@@ -13,13 +13,14 @@
             @using (Html.BeginForm())
             {
                 @Html.AntiForgeryToken()
-                <div class="col-md-10 col-xs-9 margin-top-10">
+                <div class="col-md-9 col-xs-8 margin-top-10">
                     @Html.TextBox("SearchString", null, new { id = "SearchString", @class = "form-control" })
                 </div>
-                <div class="btn btn-primary col-md-1 col-xs-2 margin-top-10">
-                    <button type="submit">
-                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    </button>
+                <div class="col-md-1 col-xs-2 margin-top-10">
+                    <button type="submit" class="btn btn-primary glyphicon glyphicon-search" />
+                </div>
+                <div class="col-md-1 col-xs-2 margin-top-10">
+                    <a href="@Url.Action("Index", "Customers")" class="btn btn-primary glyphicon glyphicon-remove"></a>
                 </div>
             }
         </div>

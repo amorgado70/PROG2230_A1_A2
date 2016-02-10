@@ -1,6 +1,8 @@
 ﻿using ConstellationStore.Contracts.Data;
+
 using ConstellationStore.Models;
 using System;
+using System.Linq;
 
 namespace ConstellationStore.Contracts.Repositories
 {

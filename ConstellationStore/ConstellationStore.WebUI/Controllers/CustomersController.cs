@@ -16,9 +16,21 @@ namespace ConstellationStore.WebUI.Controllers
         private DataContext db = new DataContext();
 
         // GET: Customers
-        public ActionResult Index()
+        //public ActionResult Index()
+        //{
+        //    return View(db.Customers.ToList());
+        //}
+        public ActionResult Index(string searchString)
         {
-            return View(db.Customers.ToList());
+            var customers = from m in db.Customers
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                customers = customers.Where(s => s.CustomerName.Contains(searchString));
+            }
+
+            return View(customers);
         }
 
         // GET: Customers/Details/5

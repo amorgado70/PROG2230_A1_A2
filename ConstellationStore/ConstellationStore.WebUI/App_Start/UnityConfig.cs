@@ -40,6 +40,8 @@ namespace ConstellationStore.WebUI.App_Start
             // TODO: Register your types here
             // container.RegisterType<IProductRepository, ProductRepository>();
             container.RegisterType<IRepositoryBase<Customer>, CustomerRepository>();
+            container.RegisterType<IRepositoryBase<Product>, ProductRepository>();
+            container.RegisterType<IRepositoryBase<Order>, OrderRepository>();
 
         }
     }

@@ -15,7 +15,7 @@ namespace ConstellationStore.WebUI.Controllers
         {
             //CustomerRepository customers = new CustomerRepository(new DataContext());
             ProductRepository products = new ProductRepository(new DataContext());
-            Orders orders = new Orders(new DataContext());
+            OrderRepository orders = new OrderRepository(new DataContext());
 
             return View();
         }

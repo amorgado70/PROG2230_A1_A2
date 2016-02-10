@@ -1,10 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using ConstellationStore.Models;
 using ConstellationStore.Contracts.Data;
@@ -22,38 +18,35 @@ namespace ConstellationStore.WebUI.Controllers
             this.customers = customers;
         }//end Constructor
 
-        private DataContext db = new DataContext();
-
-
-        // GET: List with filter
+        // GET: list with filter
         public ActionResult Index(string searchString)
         {
-            var model = customers.GetAll();
+            var customer = customers.GetAll();
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                model = model.Where(s => s.CustomerName.Contains(searchString));
+                customer = customer.Where(s => s.CustomerName.Contains(searchString));
             }
 
-            return View(model);
+            return View(customer);
         }
 
-        // GET: Customers/Details/5
+        // GET: /Details/5
         public ActionResult Details(int? id)
         {
-            var model = customers.GetById(id);
-            if (model == null)
+            var customer = customers.GetById(id);
+            if (customer == null)
             {
                 return HttpNotFound();
             }
-            return View(model);
+            return View(customer);
         }
 
-        // GET: Customers/Create
+        // GET: /Create
         public ActionResult Create()
         {
-            var model = new Customer();
-            return View(model);
+            var customer = new Customer();
+            return View(customer);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -61,8 +54,77 @@ namespace ConstellationStore.WebUI.Controllers
         {
             customers.Insert(customer);
             customers.Commit();
+
             return RedirectToAction("Index");
         }
+
+        // GET: /Edit/5
+        public ActionResult Edit(int id)
+        {
+            Customer customer = customers.GetById(id);
+            if (customer == null)
+            {
+                return HttpNotFound();
+            }
+            return View(customer);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Customer customer)
+        {
+            customers.Update(customer);
+            customers.Commit();
+
+            return RedirectToAction("Index");
+        }
+
+        private DataContext contextForDelete = new DataContext();
+
+        // GET: /Delete/5
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Customer customer = contextForDelete.Customers.Find(id);
+            if (customer == null)
+            {
+                return HttpNotFound();
+            }
+            return View(customer);
+        }
+
+        // POST: /Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            Customer customer = contextForDelete.Customers.Find(id);
+            contextForDelete.Customers.Remove(customer);
+            contextForDelete.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        //// GET: /Delete/5
+        //public ActionResult Delete(int id)
+        //{
+        //    Customer customer = customers.GetById(id);
+        //    if (customer == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(customer);
+        //}
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Delete(Customer customer)
+        //{
+        //    customers.Delete(customer);
+        //    customers.Commit();
+
+        //    return RedirectToAction("Index");
+        //}
 
     }
 }

@@ -1,34 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using ConstellationStore.Contracts.Data;
 using ConstellationStore.Models;
+using ConstellationStore.Contracts.Data;
+using ConstellationStore.Contracts.Repositories;
 
 namespace ConstellationStore.WebUI.Controllers
 {
     public class OrdersController : Controller
     {
-        private DataContext db = new DataContext();
+        IRepositoryBase<Order> orders;
 
-        // GET: Orders
-        public ActionResult Index()
+        public OrdersController(IRepositoryBase<Order> orders)
         {
-            return View(db.Orders.ToList());
+            this.orders = orders;
+        }//end Constructor
+
+        // GET: list with filter
+        public ActionResult Index(string searchString)
+        {
+            var order = orders.GetAll();
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                order = order.Where(s => s.OrderId.ToString().Contains(searchString));
+            }
+
+            return View(order);
         }
 
-        // GET: Orders/Details/5
+        // GET: /Details/5
         public ActionResult Details(int? id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Order order = db.Orders.Find(id);
+            var order = orders.GetById(id);
             if (order == null)
             {
                 return HttpNotFound();
@@ -36,68 +41,52 @@ namespace ConstellationStore.WebUI.Controllers
             return View(order);
         }
 
-        // GET: Orders/Create
+        // GET: /Create
         public ActionResult Create()
         {
-            return View();
-        }
-
-        // POST: Orders/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "OrderId,OrderDate,CustomerId")] Order order)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Orders.Add(order);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-
+            var order = new Order();
             return View(order);
         }
-
-        // GET: Orders/Edit/5
-        public ActionResult Edit(int? id)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Order order)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Order order = db.Orders.Find(id);
+            orders.Insert(order);
+            orders.Commit();
+
+            return RedirectToAction("Index");
+        }
+
+        // GET: /Edit/5
+        public ActionResult Edit(int id)
+        {
+            Order order = orders.GetById(id);
             if (order == null)
             {
                 return HttpNotFound();
             }
             return View(order);
         }
-
-        // POST: Orders/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "OrderId,OrderDate,CustomerId")] Order order)
+        public ActionResult Edit(Order order)
         {
-            if (ModelState.IsValid)
-            {
-                db.Entry(order).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(order);
+            orders.Update(order);
+            orders.Commit();
+
+            return RedirectToAction("Index");
         }
 
-        // GET: Orders/Delete/5
+        private DataContext contextForDelete = new DataContext();
+
+        // GET: /Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Order order = db.Orders.Find(id);
+            Order order = contextForDelete.Orders.Find(id);
             if (order == null)
             {
                 return HttpNotFound();
@@ -105,24 +94,36 @@ namespace ConstellationStore.WebUI.Controllers
             return View(order);
         }
 
-        // POST: Orders/Delete/5
+        // POST: /Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Order order = db.Orders.Find(id);
-            db.Orders.Remove(order);
-            db.SaveChanges();
+            Order order = contextForDelete.Orders.Find(id);
+            contextForDelete.Orders.Remove(order);
+            contextForDelete.SaveChanges();
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        //// GET: /Delete/5
+        //public ActionResult Delete(int id)
+        //{
+        //    Order order = orders.GetById(id);
+        //    if (order == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(order);
+        //}
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Delete(Order order)
+        //{
+        //    orders.Delete(order);
+        //    orders.Commit();
+
+        //    return RedirectToAction("Index");
+        //}
+
     }
 }

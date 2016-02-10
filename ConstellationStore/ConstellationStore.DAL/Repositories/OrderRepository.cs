@@ -4,9 +4,9 @@ using System;
 
 namespace ConstellationStore.Contracts.Repositories
 {
-    public class Orders : RepositoryBase<Order>
+    public class OrderRepository : RepositoryBase<Order>
     {
-        public Orders(DataContext context)
+        public OrderRepository(DataContext context)
             : base(context)
         {
             if (context == null)

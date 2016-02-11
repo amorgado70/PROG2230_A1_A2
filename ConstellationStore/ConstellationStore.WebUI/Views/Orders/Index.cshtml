@@ -1,4 +1,4 @@
-@using ConstellationStore.Models;
+@model IEnumerable<ConstellationStore.Models.ViewModel.OrderViewModel>
 
 @{
     ViewBag.Title = "Orders Index";
@@ -39,19 +39,14 @@
             <tr>
                 <th>Name</th>
                 <th>Code</th>
+                <th>Code</th>
             </tr>
-            @foreach (Order order in ViewBag.Orders)
+            @foreach (var item in Model)
             {
                 <tr>
-                    <td>@order.OrderId</td>
-                    <td>@order.CustomerId</td>
-                </tr>
-            }
-            @foreach (Customer customer in ViewBag.Customers)
-            {
-                <tr>
-                    <td>@customer.CustomerId</td>
-                    <td>@customer.CustomerName</td>
+                    <td>@item.Order.OrderId</td>
+                    <td>@item.Order.OrderDate</td>                                 
+                    <td>@item.Customer.CustomerName</td>                                 
                 </tr>
             }
         </table>

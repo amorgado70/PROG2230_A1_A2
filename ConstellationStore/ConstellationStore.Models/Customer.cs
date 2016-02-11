@@ -12,6 +12,5 @@ namespace ConstellationStore.Models
         public string HomePhone { get; set; }
         public string BusinessPhone { get; set; }
         public string EmailAddress { get; set; }
-
     }
 }

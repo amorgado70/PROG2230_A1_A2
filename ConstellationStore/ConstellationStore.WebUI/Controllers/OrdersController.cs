@@ -3,6 +3,7 @@ using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 using ConstellationStore.Models;
+using ConstellationStore.Models.ViewModel;
 using ConstellationStore.Contracts.Data;
 using ConstellationStore.Contracts.Repositories;
 
@@ -31,11 +32,15 @@ namespace ConstellationStore.WebUI.Controllers
 
         //    return View(order);
         //}
+        private DataContext contextForIndex = new DataContext();
         public ActionResult Index()
-        {
-            ViewBag.Orders = orders.GetAll();
-            ViewBag.Customers = customers.GetAll();
-            return View();
+        {            
+            var viewOrder = orders.GetAll();
+            var viewModel =
+                from o in contextForIndex.Orders
+                join c in contextForIndex.Customers on o.CustomerId equals c.CustomerId
+                select new OrderViewModel { Order = o, Customer = c };
+            return View(viewModel);
         }
 
         // GET: /Details/5

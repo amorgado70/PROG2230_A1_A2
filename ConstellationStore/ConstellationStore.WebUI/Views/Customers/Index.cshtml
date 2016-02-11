@@ -14,7 +14,7 @@
             {
                 @Html.AntiForgeryToken()
                 <div class="col-md-9 col-xs-8 margin-top-10">
-                    @Html.TextBox("SearchString", null, new { id = "SearchString", @class = "form-control" })
+                    @Html.TextBox("SearchString", "Customer name", new { id = "SearchString", @class = "form-control" })
                 </div>
                 <div class="col-md-1 col-xs-2 margin-top-10">
                     <button type="submit" class="btn btn-primary glyphicon glyphicon-search" />

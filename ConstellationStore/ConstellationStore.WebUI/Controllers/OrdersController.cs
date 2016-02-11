@@ -11,23 +11,31 @@ namespace ConstellationStore.WebUI.Controllers
     public class OrdersController : Controller
     {
         IRepositoryBase<Order> orders;
+        IRepositoryBase<Customer> customers;
 
-        public OrdersController(IRepositoryBase<Order> orders)
+        public OrdersController(IRepositoryBase<Order> orders, IRepositoryBase<Customer> customers)
         {
             this.orders = orders;
+            this.customers = customers;
         }//end Constructor
 
         // GET: list with filter
-        public ActionResult Index(string searchString)
+        //public ActionResult Index(string searchString)
+        //{
+        //    var order = orders.GetAll();
+
+        //    if (!String.IsNullOrEmpty(searchString))
+        //    {
+        //        order = order.Where(s => s.OrderId.ToString().Contains(searchString));
+        //    }
+
+        //    return View(order);
+        //}
+        public ActionResult Index()
         {
-            var order = orders.GetAll();
-
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                order = order.Where(s => s.OrderId.ToString().Contains(searchString));
-            }
-
-            return View(order);
+            ViewBag.Orders = orders.GetAll();
+            ViewBag.Customers = customers.GetAll();
+            return View();
         }
 
         // GET: /Details/5

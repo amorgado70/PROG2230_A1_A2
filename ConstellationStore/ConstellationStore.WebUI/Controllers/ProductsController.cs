@@ -29,18 +29,18 @@ namespace ConstellationStore.WebUI.Controllers
             }
 
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
-            ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
+            ViewBag.PriceSortParm = sortOrder == "Price" ? "price_desc" : "Price";
 
             switch (sortOrder)
             {
                 case "name_desc":
                     product = product.OrderByDescending(s => s.Description);
                     break;
-                case "Date":
-                    product = product.OrderBy(s => s.ProductId);
+                case "Price":
+                    product = product.OrderBy(s => s.Price);
                     break;
-                case "date_desc":
-                    product = product.OrderByDescending(s => s.ProductId);
+                case "price_desc":
+                    product = product.OrderByDescending(s => s.Price);
                     break;
                 default:
                     product = product.OrderBy(s => s.Description);

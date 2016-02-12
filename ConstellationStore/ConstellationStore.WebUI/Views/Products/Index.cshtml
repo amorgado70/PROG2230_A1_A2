@@ -34,18 +34,23 @@
 </div>
 
 
-<table class="table">
-    <tr>
-        <th class="btn btn-primary">
-            @Html.ActionLink("Product Name", "Index", new { sortOrder = ViewBag.NameSortParm })
-            <span class="glyphicon glyphicon-sort" aria-hidden="true"></span>
-        </th>
-        <th class="btn btn-primary">
-            @Html.ActionLink("Product Id", "Index", new { sortOrder = ViewBag.DateSortParm })
-            <span class="glyphicon glyphicon-sort" aria-hidden="true"></span>
-        </th>
-    </tr>
-</table>
+<div class="container">
+    <div class="row margin-top-10">
+        <div class="col-md-5">
+            <div class="btn btn-primary">
+                @Html.ActionLink("Product Name", "Index", new { sortOrder = ViewBag.NameSortParm })
+                <span class="glyphicon glyphicon-sort" aria-hidden="true"></span>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+            <div class="btn btn-primary">
+                @Html.ActionLink("Product Price", "Index", new { sortOrder = ViewBag.PriceSortParm })
+                <span class="glyphicon glyphicon-sort" aria-hidden="true"></span>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     @foreach (var item in Model)

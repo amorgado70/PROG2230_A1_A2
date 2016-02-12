@@ -21,7 +21,7 @@ namespace ConstellationStore.WebUI.Controllers
             this.customers = customers;
         }//end Constructor
 
-        public ActionResult Index(string searchString1, string searchString2)
+        public ActionResult Index(string searchString1, string searchString2, string sortOrder)
         {
             DataContext contextForIndex = new DataContext();
             var viewModel =
@@ -38,6 +38,32 @@ namespace ConstellationStore.WebUI.Controllers
             {
                 viewModel = viewModel.Where(s => s.Customer.CustomerName.Contains(searchString2));
             }
+
+            ViewBag.OrderIdSortParm = String.IsNullOrEmpty(sortOrder) ? "id_desc" : "";
+            ViewBag.OrderDateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
+            ViewBag.CustomerNameSortParm = sortOrder == "Customer" ? "name_desc" : "Customer";
+
+            switch (sortOrder)
+            {
+                case "id_desc":
+                    viewModel = viewModel.OrderByDescending(s => s.Order.OrderId);
+                    break;
+                case "Date":
+                    viewModel = viewModel.OrderBy(s => s.Order.OrderDate);
+                    break;
+                case "date_desc":
+                    viewModel = viewModel.OrderByDescending(s => s.Order.OrderDate);
+                    break;
+                case "Customer":
+                    viewModel = viewModel.OrderBy(s => s.Customer.CustomerName);
+                    break;
+                case "name_desc":
+                    viewModel = viewModel.OrderByDescending(s => s.Customer.CustomerName);
+                    break;
+                default:
+                    viewModel = viewModel.OrderBy(s => s.Order.OrderId);
+                    break;
+            }  
 
             return View(viewModel);
         }

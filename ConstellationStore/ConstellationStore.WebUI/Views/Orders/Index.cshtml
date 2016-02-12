@@ -47,26 +47,29 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="row margin-top-10">
+        <div class="col-md-3">
+            <div class="btn btn-primary">
+                @Html.ActionLink("Order Id", "Index", new { sortOrder = ViewBag.OrderIdSortParm })
+                <span class="glyphicon glyphicon-sort" aria-hidden="true"></span>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="btn btn-primary">
+                @Html.ActionLink("Order Date", "Index", new { sortOrder = ViewBag.OrderDateSortParm })
+                <span class="glyphicon glyphicon-sort" aria-hidden="true"></span>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="btn btn-primary">
+                @Html.ActionLink("Customer Name", "Index", new { sortOrder = ViewBag.CustomerNameSortParm })
+                <span class="glyphicon glyphicon-sort" aria-hidden="true"></span>
+            </div>
+        </div>
+    </div>
+</div>
 <table class="table">
-    <tr>
-        <th>
-            Order Id &nbsp;
-            <span class="btn btn-primary glyphicon glyphicon-sort" aria-hidden="true"></span>
-        </th>
-        <th>
-            Order Date &nbsp;
-            <span class="btn btn-primary glyphicon glyphicon-sort" aria-hidden="true"></span>
-        </th>
-        <th>
-            Customer Name &nbsp;
-            <span class="btn btn-primary glyphicon glyphicon-sort" aria-hidden="true"></span>
-        </th>
-        <th>
-            Total CDN$ &nbsp;
-            <span class="btn btn-primary glyphicon glyphicon-sort" aria-hidden="true"></span>
-        </th>
-        <th></th>
-    </tr>
     @foreach (var item in Model)
     {
         <tr>
@@ -79,7 +82,6 @@
             <td>
                 @item.Customer.CustomerName
             </td>
-            <td></td>
             <td>
                 <a href="" class="btn btn-primary">
                     Items List

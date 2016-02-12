@@ -21,7 +21,7 @@ namespace ConstellationStore.WebUI.Controllers
             this.customers = customers;
         }//end Constructor
 
-        public ActionResult Index(string searchString)
+        public ActionResult Index(string searchString1, string searchString2)
         {
             DataContext contextForIndex = new DataContext();
             var viewModel =
@@ -29,10 +29,16 @@ namespace ConstellationStore.WebUI.Controllers
                 join c in contextForIndex.Customers on o.CustomerId equals c.CustomerId
                 select new OrderViewModel { Order = o, Customer = c };
             
-            if (!String.IsNullOrEmpty(searchString))
+            if (!String.IsNullOrEmpty(searchString1))
             {
-                viewModel = viewModel.Where(s => s.Order.OrderId.ToString().Contains(searchString));
+                viewModel = viewModel.Where(s => s.Order.OrderId.ToString().Contains(searchString1));
             }
+
+            if (!String.IsNullOrEmpty(searchString2))
+            {
+                viewModel = viewModel.Where(s => s.Customer.CustomerName.Contains(searchString2));
+            }
+
             return View(viewModel);
         }
 

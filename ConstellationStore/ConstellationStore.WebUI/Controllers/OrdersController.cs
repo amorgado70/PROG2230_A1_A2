@@ -22,15 +22,23 @@ namespace ConstellationStore.WebUI.Controllers
         }//end Constructor
 
 //****************************
+        //Solution using Model
+        //public ActionResult MyView()
+        //{
+        //    var customer = customers.GetAll();
+        //    customer = customer.OrderBy(s => s.CustomerName);
+        //    return View(customer);
+        //}
 
+        //Solution using ViewBag
         public ActionResult MyView()
         {
             var customer = customers.GetAll();
-            var vm = new SelectList(customer, "CustomerId", "CustomerName");
-            return View(vm);
+            ViewBag.Customer = customer.OrderBy(s => s.CustomerName);
+            return View();
         }
 
-        //****************************
+//****************************
 
 
 
@@ -95,6 +103,11 @@ namespace ConstellationStore.WebUI.Controllers
         public ActionResult Create()
         {
             var order = new Order();
+
+            // viewBag for DropdownList
+            var customer = customers.GetAll();
+            ViewBag.Customer = customer.OrderBy(s => s.CustomerName);
+
             return View(order);
         }
         [HttpPost]
@@ -115,6 +128,11 @@ namespace ConstellationStore.WebUI.Controllers
             {
                 return HttpNotFound();
             }
+
+            // viewBag for DropdownList
+            var customer = customers.GetAll();
+            ViewBag.Customer = customer.OrderBy(s => s.CustomerName);
+
             return View(order);
         }
         [HttpPost]

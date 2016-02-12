@@ -5,19 +5,18 @@
 
 <h2>View</h2>
 
-@model System.Web.Mvc.SelectList
+@*Solution using Model*@
 
-@*new SelectList(Model.AsEnumerable()),*@
-
-@*@Html.DropDownList("CustomerId",
-                        new SelectList(Model.AsEnumerable),
-                        "Select Customer",
-                        new { @class = "form-control" })*@
-
-@*@Html.DropDownListFor(vm => vm.CustomerId, List)*@
-
+@*@model IEnumerable<ConstellationStore.Models.Customer>
 
 @Html.DropDownList("CustomerId",
-                        Model,
-                        "Select Customer",
-                        new { @class = "form-control" })
+    new SelectList(Model, "CustomerId", "CustomerName"),
+    "Select Customer",
+    new { @class = "form-control" })*@
+
+@*Solution using ViewBag*@
+
+@Html.DropDownList("CustomerId",
+        new SelectList(ViewBag.Customer, "CustomerId", "CustomerName"),
+    "Select Customer",
+    new { @class = "form-control" })

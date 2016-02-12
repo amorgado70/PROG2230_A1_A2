@@ -21,6 +21,19 @@ namespace ConstellationStore.WebUI.Controllers
             this.customers = customers;
         }//end Constructor
 
+//****************************
+
+        public ActionResult MyView()
+        {
+            var customer = customers.GetAll();
+            var vm = new SelectList(customer, "CustomerId", "CustomerName");
+            return View(vm);
+        }
+
+        //****************************
+
+
+
         public ActionResult Index(string searchString1, string searchString2, string sortOrder)
         {
             DataContext contextForIndex = new DataContext();
@@ -132,6 +145,5 @@ namespace ConstellationStore.WebUI.Controllers
             orders.Commit();
             return RedirectToAction("Index");
         }
-
     }
 }

@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>View</h2>
+
+@model System.Web.Mvc.SelectList
+
+@*new SelectList(Model.AsEnumerable()),*@
+
+@*@Html.DropDownList("CustomerId",
+                        new SelectList(Model.AsEnumerable),
+                        "Select Customer",
+                        new { @class = "form-control" })*@
+
+@*@Html.DropDownListFor(vm => vm.CustomerId, List)*@
+
+
+@Html.DropDownList("CustomerId",
+                        Model,
+                        "Select Customer",
+                        new { @class = "form-control" })

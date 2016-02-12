@@ -6,6 +6,7 @@ using ConstellationStore.Models;
 using ConstellationStore.Models.ViewModel;
 using ConstellationStore.Contracts.Data;
 using ConstellationStore.Contracts.Repositories;
+using System.Data.Entity;
 
 namespace ConstellationStore.WebUI.Controllers
 {
@@ -20,13 +21,18 @@ namespace ConstellationStore.WebUI.Controllers
             this.customers = customers;
         }//end Constructor
 
-        private DataContext contextForIndex = new DataContext();
-        public ActionResult Index()
+        public ActionResult Index(string searchString)
         {
+            DataContext contextForIndex = new DataContext();
             var viewModel =
                 from o in contextForIndex.Orders
                 join c in contextForIndex.Customers on o.CustomerId equals c.CustomerId
                 select new OrderViewModel { Order = o, Customer = c };
+            
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                viewModel = viewModel.Where(s => s.Order.OrderId.ToString().Contains(searchString));
+            }
             return View(viewModel);
         }
 

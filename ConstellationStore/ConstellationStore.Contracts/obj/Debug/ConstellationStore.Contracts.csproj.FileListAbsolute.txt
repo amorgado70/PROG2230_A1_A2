@@ -6,3 +6,4 @@ G:\_PROG2230 ASP NET\PROG2230 Assignment 2 - Alfredo Morgado - ID 7381650\Conste
 G:\_PROG2230 ASP NET\PROG2230 Assignment 2 - Alfredo Morgado - ID 7381650\ConstellationStore\ConstellationStore.Contracts\bin\Debug\ConstellationStore.Contracts.pdb
 G:\_PROG2230 ASP NET\PROG2230 Assignment 2 - Alfredo Morgado - ID 7381650\ConstellationStore\ConstellationStore.Contracts\obj\Debug\ConstellationStore.Contracts.dll
 G:\_PROG2230 ASP NET\PROG2230 Assignment 2 - Alfredo Morgado - ID 7381650\ConstellationStore\ConstellationStore.Contracts\obj\Debug\ConstellationStore.Contracts.pdb
+G:\_PROG2230 ASP NET\PROG2230 Assignment 2 - Alfredo Morgado - ID 7381650\ConstellationStore\ConstellationStore.Contracts\obj\Debug\ConstellationStore.Contracts.csprojResolveAssemblyReference.cache

@@ -19,7 +19,7 @@ namespace ConstellationStore.WebUI.Controllers
         }//end Constructor
 
         // GET: list with filter
-        public ActionResult Index(string searchString)
+        public ActionResult Index(string searchString, string sortOrder)
         {
             var product = products.GetAll();
 
@@ -27,6 +27,25 @@ namespace ConstellationStore.WebUI.Controllers
             {
                 product = product.Where(s => s.Description.Contains(searchString));
             }
+
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
+
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    product = product.OrderByDescending(s => s.Description);
+                    break;
+                case "Date":
+                    product = product.OrderBy(s => s.ProductId);
+                    break;
+                case "date_desc":
+                    product = product.OrderByDescending(s => s.ProductId);
+                    break;
+                default:
+                    product = product.OrderBy(s => s.Description);
+                    break;
+            }  
 
             return View(product);
         }

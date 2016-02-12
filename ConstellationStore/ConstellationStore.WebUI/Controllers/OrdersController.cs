@@ -20,22 +20,9 @@ namespace ConstellationStore.WebUI.Controllers
             this.customers = customers;
         }//end Constructor
 
-        // GET: list with filter
-        //public ActionResult Index(string searchString)
-        //{
-        //    var order = orders.GetAll();
-
-        //    if (!String.IsNullOrEmpty(searchString))
-        //    {
-        //        order = order.Where(s => s.OrderId.ToString().Contains(searchString));
-        //    }
-
-        //    return View(order);
-        //}
         private DataContext contextForIndex = new DataContext();
         public ActionResult Index()
-        {            
-            var viewOrder = orders.GetAll();
+        {
             var viewModel =
                 from o in contextForIndex.Orders
                 join c in contextForIndex.Customers on o.CustomerId equals c.CustomerId
@@ -53,7 +40,6 @@ namespace ConstellationStore.WebUI.Controllers
             }
             return View(order);
         }
-
         // GET: /Create
         public ActionResult Create()
         {
@@ -90,53 +76,24 @@ namespace ConstellationStore.WebUI.Controllers
             return RedirectToAction("Index");
         }
 
-        private DataContext contextForDelete = new DataContext();
-
         // GET: /Delete/5
-        public ActionResult Delete(int? id)
+        public ActionResult Delete(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Order order = contextForDelete.Orders.Find(id);
+            Order order = orders.GetById(id);
             if (order == null)
             {
                 return HttpNotFound();
             }
             return View(order);
         }
-
-        // POST: /Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public ActionResult DeleteConfirm(int id)
         {
-            Order order = contextForDelete.Orders.Find(id);
-            contextForDelete.Orders.Remove(order);
-            contextForDelete.SaveChanges();
+            orders.Delete(orders.GetById(id));
+            orders.Commit();
             return RedirectToAction("Index");
         }
-
-        //// GET: /Delete/5
-        //public ActionResult Delete(int id)
-        //{
-        //    Order order = orders.GetById(id);
-        //    if (order == null)
-        //    {
-        //        return HttpNotFound();
-        //    }
-        //    return View(order);
-        //}
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Delete(Order order)
-        //{
-        //    orders.Delete(order);
-        //    orders.Commit();
-
-        //    return RedirectToAction("Index");
-        //}
 
     }
 }

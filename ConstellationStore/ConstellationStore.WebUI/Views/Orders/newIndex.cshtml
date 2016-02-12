@@ -1,0 +1,54 @@
+@model IEnumerable<ConstellationStore.Models.ViewModel.OrderViewModel>
+
+@{
+    ViewBag.Title = "Orders Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="margin-top-10">Orders Index</h2>
+
+<div class="container">
+    <div class="row margin-top-10">
+        <div class="col-md-7">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                <div class="col-md-9 col-xs-8 margin-top-10">
+                    @Html.TextBox("SearchString", null, new { id = "SearchString", @class = "form-control" })
+                </div>
+                <div class="col-md-1 col-xs-2 margin-top-10">
+                    <button type="submit" class="btn btn-primary glyphicon glyphicon-search" />
+                </div>
+                <div class="col-md-1 col-xs-2 margin-top-10">
+                    <a href="@Url.Action("Index", "Orders")" class="btn btn-primary glyphicon glyphicon-remove"></a>
+                </div>
+            }
+        </div>
+        <div class="col-md-5">
+            <a href="@Url.Action("Create", "Orders")" class="btn btn-primary pull-right col-md-4 col-xs-12 margin-top-10">
+                Create New &nbsp;
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Code</th>
+                <th>Code</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Order.OrderId</td>
+                    <td>@item.Order.OrderDate</td>                                 
+                    <td>@item.Customer.CustomerName</td>                                 
+                </tr>
+            }
+        </table>
+    </div>
+</div>

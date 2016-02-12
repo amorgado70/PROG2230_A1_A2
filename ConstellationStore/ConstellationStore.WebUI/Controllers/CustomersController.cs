@@ -78,53 +78,24 @@ namespace ConstellationStore.WebUI.Controllers
             return RedirectToAction("Index");
         }
 
-        private DataContext contextForDelete = new DataContext();
-
         // GET: /Delete/5
-        public ActionResult Delete(int? id)
+        public ActionResult Delete(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Customer customer = contextForDelete.Customers.Find(id);
+            Customer customer = customers.GetById(id);
             if (customer == null)
             {
                 return HttpNotFound();
             }
             return View(customer);
         }
-
-        // POST: /Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public ActionResult DeleteConfirm(int id)
         {
-            Customer customer = contextForDelete.Customers.Find(id);
-            contextForDelete.Customers.Remove(customer);
-            contextForDelete.SaveChanges();
+            customers.Delete(customers.GetById(id));
+            customers.Commit();
             return RedirectToAction("Index");
         }
-
-        //// GET: /Delete/5
-        //public ActionResult Delete(int id)
-        //{
-        //    Customer customer = customers.GetById(id);
-        //    if (customer == null)
-        //    {
-        //        return HttpNotFound();
-        //    }
-        //    return View(customer);
-        //}
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Delete(Customer customer)
-        //{
-        //    customers.Delete(customer);
-        //    customers.Commit();
-
-        //    return RedirectToAction("Index");
-        //}
 
     }
 }

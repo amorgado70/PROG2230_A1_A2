@@ -20,12 +20,15 @@ namespace ConstellationStore.Contracts.Repositories
         {
             return dbSet.Find(id);
         }
+        public virtual IQueryable<TEntity> GetQueryable()
+        {
+            return dbSet.AsQueryable<TEntity>();
+        }
 
         public virtual IQueryable<TEntity> GetAll()
         {
             return dbSet;
         }
-
         public IQueryable<TEntity> GetPaged(int top = 20, int skip = 0, object orderBy = null, object filter = null)
         {
             return null; //need to override in order to implement specific filtering and ordering

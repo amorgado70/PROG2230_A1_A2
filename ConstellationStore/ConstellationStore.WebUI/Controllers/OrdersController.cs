@@ -97,7 +97,16 @@ namespace ConstellationStore.WebUI.Controllers
             {
                 return HttpNotFound();
             }
-            return View(order);
+
+            DataContext contextForIndex = new DataContext();
+            var viewModel =
+                from o in contextForIndex.Orders
+                join c in contextForIndex.Customers on o.CustomerId equals c.CustomerId
+                where o.OrderId == id
+                select new OrderViewModel { Order = o, Customer = c };
+
+            return View(viewModel);
+
         }
         // GET: /Create
         public ActionResult Create()
@@ -153,7 +162,15 @@ namespace ConstellationStore.WebUI.Controllers
             {
                 return HttpNotFound();
             }
-            return View(order);
+
+            DataContext contextForIndex = new DataContext();
+            var viewModel =
+                from o in contextForIndex.Orders
+                join c in contextForIndex.Customers on o.CustomerId equals c.CustomerId
+                 where o.OrderId == id
+                select new OrderViewModel { Order = o, Customer = c };
+
+            return View(viewModel);
         }
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

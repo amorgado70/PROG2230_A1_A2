@@ -72,18 +72,25 @@ input, select, textarea {
 	height: 200px;
 }
 .customer-body{
-	height: 380px;
+	height: 520px;
 }
-@media (max-width: 960px) {
-    .customer-body{
-	height: 420px;
-}
-}
-@media (max-width: 1280px) {
+@media (min-width: 420px) {
     .customer-body{
 	height: 460px;
 }
 }
+@media (min-width: 520px) {
+    .customer-body{
+	height: 420px;
+}
+}
+@media (min-width: 1280px) {
+    .customer-body{
+	height: 380px;
+}
+}
+
+
 .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td{
 	border-top-color: #1E6912;
 }

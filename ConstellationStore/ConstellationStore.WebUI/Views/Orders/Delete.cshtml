@@ -1,4 +1,4 @@
-﻿@model ConstellationStore.Models.Order
+﻿@model IEnumerable<ConstellationStore.Models.ViewModel.OrderViewModel>
 
 @{
     ViewBag.Title = "Delete";
@@ -11,35 +11,43 @@
 <div>
     <h4>Order</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.OrderDate)
-        </dt>
+    @foreach (var item in Model)
+    {
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Order.OrderId)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.OrderDate)
-        </dd>
+            <dd>
+                @item.Order.OrderId
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Order.OrderDate)
+            </dt>
+            <dd>
+                @item.Order.OrderDate
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Customer.CustomerName)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.CustomerId)
-        </dt>
+            <dd>
+                @item.Customer.CustomerName
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.CustomerId)
-        </dd>
-
-    </dl>
+        </dl>
+    }
 
     @using (Html.BeginForm())
     {
-    @Html.AntiForgeryToken()
+        @Html.AntiForgeryToken()
 
-    <div class="form-actions no-color">
-        <input type="submit" value="Delete" class="btn btn-default" />
-        <a href="@Url.Action("Index", "Orders")" class="btn btn-primary">
-            Back to List &nbsp;
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        </a>
-    </div>
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" />
+            <a href="@Url.Action("Index", "Orders")" class="btn btn-primary">
+                Back to List &nbsp;
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+        </div>
     }
 </div>

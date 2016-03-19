@@ -7,6 +7,7 @@ namespace ConstellationStore.Contracts.Data
     {
         public DataContext() : base("DefaultConnection")
         {
+            Configuration.LazyLoadingEnabled = true;
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MidTermSolution.Models.BasketItem>
+﻿@model IEnumerable<ConstellationStore.Models.BasketItem>
 
 @{
     ViewBag.Title = "Basket Summary";
@@ -18,7 +18,7 @@
             @Html.DisplayNameFor(model => model.BasketID)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Product.ProductDescription)
+            @Html.DisplayNameFor(model => model.Product.Description)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Product.Price)
@@ -33,13 +33,13 @@
     {
         <tr>
             <td>
-                <img style="width:15%" src="/img/@item.Product.ImageUrl" alt="@item.Product.ProductDescription" />
+                <img style="width:15%" src="/img/@item.Product.ImageUrl" alt="@item.Product.Description" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.BasketID)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Product.ProductDescription)
+                @Html.DisplayFor(modelItem => item.Product.Description)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Product.Price)

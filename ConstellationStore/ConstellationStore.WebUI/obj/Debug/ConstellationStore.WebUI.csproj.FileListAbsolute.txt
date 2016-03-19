@@ -365,12 +365,12 @@ C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\Constellati
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.Contracts.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.DAL.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.Models.dll
+C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.Services.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\EntityFramework.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\EntityFramework.SqlServer.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\Microsoft.AspNet.Identity.Core.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\Microsoft.Owin.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\Microsoft.Owin.Security.Cookies.dll
@@ -400,7 +400,7 @@ C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\Constellati
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.Contracts.pdb
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.DAL.pdb
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.Models.pdb
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.Services.pdb
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\Microsoft.Practices.ServiceLocation.xml
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\Microsoft.Practices.Unity.xml
@@ -433,5 +433,3 @@ C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\Constellati
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\obj\Debug\ConstellationStore.WebUI.csprojResolveAssemblyReference.cache
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\obj\Debug\ConstellationStore.WebUI.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\obj\Debug\ConstellationStore.WebUI.pdb
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.Services.dll
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.Services.pdb

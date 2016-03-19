@@ -21,9 +21,6 @@ G:\_PROG2230 ASP NET\PROG2230 Assignment 2 - Alfredo Morgado - ID 7381650\Conste
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\bin\Debug\ConstellationStore.Models.dll.config
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\bin\Debug\ConstellationStore.Models.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\bin\Debug\ConstellationStore.Models.pdb
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\bin\Debug\EntityFramework.dll
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\bin\Debug\EntityFramework.xml
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\obj\Debug\ConstellationStore.Models.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\obj\Debug\ConstellationStore.Models.pdb
+C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\obj\Debug\ConstellationStore.Models.csprojResolveAssemblyReference.cache

@@ -38,10 +38,7 @@ namespace ConstellationStore.WebUI.Controllers
             ViewBag.QuantityInBasket = basketService.QuantityInBasket(this.HttpContext);
             ViewBag.AmountInBasket = basketService.AmountInBasket(this.HttpContext);
             var model = basketService.GetBasket(this.HttpContext);
-            if ( model != null ) { 
             return View(model.BasketItems);
-            }
-            return HttpNotFound();
         }
 
         public ActionResult DeleteFromBasket(int id)

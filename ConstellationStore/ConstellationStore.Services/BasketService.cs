@@ -79,6 +79,8 @@ namespace ConstellationStore.Services
                 if (Guid.TryParse(cookie.Value, out basketId))
                 {
                     basket = baskets.GetById(basketId);
+                    if (basket == null)//basket not found in database
+                        basket = createNewBasket(httpContext);
                 }
                 else
                 {
@@ -96,24 +98,19 @@ namespace ConstellationStore.Services
         {
             int quantity = 0;
             Basket basket = GetBasket(httpContext);
-            if (basket != null)
-            {
-                quantity = basket.BasketItems.Select(c => c.Quantity).Sum();
-                return quantity;
-            }
-            return 0;
+            if (basket == null) return 0;
+            quantity = basket.BasketItems.Select(c => c.Quantity).Sum();
+            return quantity;
         }
         public decimal AmountInBasket(HttpContextBase httpContext)
         {
             decimal total = 0;
             Basket basket = GetBasket(httpContext);
-            if (basket != null)
-            {
-                var itemtotal = basket.BasketItems.Select(c => new { amount = c.Quantity * c.Product.Price });
-                total = itemtotal.Select(c => c.amount).Sum();
-                return total;
-            }
-            return 0;
+            if (basket == null) return 0;
+            var itemtotal = basket.BasketItems.Select(c => new { amount = c.Quantity * c.Product.Price });
+            total = itemtotal.Select(c => c.amount).Sum();
+            return total;
+
         }
 
         public bool RemoveFromBasket(int BasketItemID)

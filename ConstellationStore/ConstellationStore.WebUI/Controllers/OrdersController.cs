@@ -21,27 +21,6 @@ namespace ConstellationStore.WebUI.Controllers
             this.customers = customers;
         }//end Constructor
 
-//****************************
-        //Solution using Model
-        //public ActionResult MyView()
-        //{
-        //    var customer = customers.GetAll();
-        //    customer = customer.OrderBy(s => s.CustomerName);
-        //    return View(customer);
-        //}
-
-        //Solution using ViewBag
-        public ActionResult MyView()
-        {
-            var customer = customers.GetAll();
-            ViewBag.Customer = customer.OrderBy(s => s.CustomerName);
-            return View();
-        }
-
-//****************************
-
-
-
         public ActionResult Index(string searchString1, string searchString2, string sortOrder)
         {
             DataContext contextForIndex = new DataContext();

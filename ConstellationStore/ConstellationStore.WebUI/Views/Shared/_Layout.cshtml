@@ -35,35 +35,19 @@
                         <script type="text/javascript">
                             $(document).ready(function () {
                                 $.ajax({
-
-                                    // The url to which the request is to be sent.
                                     url: '/Products/QuantityInBasket',
-
-                                    // The type of request. It can be "GET" or "POST" or others.
                                     type: "POST",
-
-                                    // The data that is to be sent to the server. It can be omitted if no data is
-                                    // to be sent. In a "GET" request this data is appended to the url.
-                                    // data: { "id": "foo", "name": "bar" },
-
                                     dataType: "json",
-
-                                    // The function to be called when the server returns some data. The data
-                                    // variable holds the content that was returned.
                                     success: function (data) {
-                                        $("#quantityInBasket").text(data);
-                                    },
-
-                                    // Show an alert if an error occurs.
+                                        $("#quantityInBasket").text(data);},
                                     error: function () {
-                                        alert("Some error occured.");
-                                    }
+                                        alert("Some error occured.");}
                                 });
                             });
                         </script>
                         <a href="@Url.Action("BasketSummary", "Products")">
                             Basket <br />
-                            <span>&nbsp;&nbsp;&#91;&nbsp;<span id="quantityInBasket"></span>&nbsp;&#93;</span>
+                            <span>&nbsp;&nbsp;&#91;&nbsp;<span id="quantityInBasket">0</span>&nbsp;&#93;</span>
                         </a>
                     </li>
                     <!--begin admin dropdown-->

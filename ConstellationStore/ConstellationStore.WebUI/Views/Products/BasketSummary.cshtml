@@ -6,9 +6,17 @@
 
 <h2>Basket Summary</h2>
 
-<p>
-    @Html.ActionLink("Add To Basket", "AddToBasket")
-</p>
+<div class="container">
+    <div class="row margin-top-10">
+        <div class="col-md-6 col-md-push-6 col-xs-12">
+            <a href="@Url.Action("BasketItemAdd", "Products")" class="btn btn-primary pull-right margin-top-10">
+                Select More Products &nbsp;
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
 <table class="table">
     <tr>
         <th>
@@ -49,9 +57,20 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Quantity)
             </td>
-            <td>
-                @Html.ActionLink("Details", "Details", new { id = item.BasketItemID }, "Products") |
-                @Html.ActionLink("Delete", "DeleteFromBasket", new { id = item.BasketItemID })
+            <td class="col-xs-4">
+                <div class="col-md-6 col-xs-12">
+                    <a href="@Url.Action("BasketItemDetails", "Products", new { id = item.ProductID })" class="btn btn-primary col-xs-12">
+                        Details
+                        <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <a href="@Url.Action("DeleteFromBasket", "Products", new { id = item.BasketItemID })" class="btn btn-primary col-xs-12">
+                        Remove
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                    </a>
+                </div>
+
             </td>
         </tr>
     }

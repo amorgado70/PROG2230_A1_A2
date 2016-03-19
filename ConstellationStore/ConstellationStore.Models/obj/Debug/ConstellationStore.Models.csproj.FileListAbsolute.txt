@@ -23,4 +23,3 @@ C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\Constellati
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\bin\Debug\ConstellationStore.Models.pdb
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\obj\Debug\ConstellationStore.Models.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\obj\Debug\ConstellationStore.Models.pdb
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Models\obj\Debug\ConstellationStore.Models.csprojResolveAssemblyReference.cache

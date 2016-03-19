@@ -113,6 +113,11 @@ namespace ConstellationStore.Services
 
         }
 
+        public BasketItem GetBasketItemById(int BasketItemID)
+        {
+            return basketitems.GetById(BasketItemID);
+        }
+
         public bool RemoveFromBasket(int BasketItemID)
         {
 

@@ -27,6 +27,11 @@ namespace ConstellationStore.WebUI.Controllers
             basketService = new BasketService(this.baskets, this.basketitems);
         }
 
+        public ActionResult QuantityInBasket()
+        {
+            var result = basketService.QuantityInBasket(this.HttpContext);
+            return Json(result);
+        }
 
         public ActionResult AddToBasket(int id)
         {
@@ -87,7 +92,7 @@ namespace ConstellationStore.WebUI.Controllers
                 default:
                     product = product.OrderBy(s => s.Description);
                     break;
-            }  
+            }
 
             return View(product);
         }

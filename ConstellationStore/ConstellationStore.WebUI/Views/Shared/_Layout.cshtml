@@ -7,6 +7,7 @@
     <title>@ViewBag.Title - Constellation Store</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
 
 </head>
 <body>
@@ -30,7 +31,41 @@
                     <li>@Html.ActionLink("Products", "Index", "Products")</li>
                     <li>@Html.ActionLink("Customers", "Index", "Customers")</li>
                     <li>@Html.ActionLink("Orders", "Index", "Orders")</li>
-                    <li>@Html.ActionLink("Basket", "BasketSummary", "Products")</li>
+                    <li>
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+                                $.ajax({
+
+                                    // The url to which the request is to be sent.
+                                    url: '/Products/QuantityInBasket',
+
+                                    // The type of request. It can be "GET" or "POST" or others.
+                                    type: "POST",
+
+                                    // The data that is to be sent to the server. It can be omitted if no data is
+                                    // to be sent. In a "GET" request this data is appended to the url.
+                                    // data: { "id": "foo", "name": "bar" },
+
+                                    dataType: "json",
+
+                                    // The function to be called when the server returns some data. The data
+                                    // variable holds the content that was returned.
+                                    success: function (data) {
+                                        $("#quantityInBasket").text(data);
+                                    },
+
+                                    // Show an alert if an error occurs.
+                                    error: function () {
+                                        alert("Some error occured.");
+                                    }
+                                });
+                            });
+                        </script>
+                        <a href="@Url.Action("BasketSummary", "Products")">
+                            Basket <br />
+                            <span>&nbsp;&nbsp;&#91;&nbsp;<span id="quantityInBasket"></span>&nbsp;&#93;</span>
+                        </a>
+                    </li>
                     <!--begin admin dropdown-->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle-inverse" data-toggle="dropdown">Admin <br /><span style="font-size: 80%;">Add/Remove<b class="caret"></b></span></a>
@@ -53,11 +88,13 @@
                         </ul>
                     </li><!--end dropdown menu items-->
                 </ul>
-            </div>
+        </div>
+
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
+
     <div class="container body-content">
         @RenderBody()
         <hr />

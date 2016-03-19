@@ -32,10 +32,12 @@
     @foreach (var item in Model)
     {
         <tr>
-            <td>
-                <img style="width:15%" src="/img/@item.Product.ImageUrl" alt="@item.Product.Description" />
+            <td class="col-xs-2">
+                <div >
+                    <img class="img-responsive img-rounded" src="@Html.DisplayFor(modelItem => item.Product.ImageUrl )" alt="@item.Product.Description">
+                </div>
             </td>
-            <td>
+            <td class="col-xs-2">
                 @Html.DisplayFor(modelItem => item.BasketID)
             </td>
             <td>
@@ -55,20 +57,15 @@
     }
 
     <tr>
-        <td colspan="4">
-            Number of Items in Basket
-        </td>
-        <td colspan="2">
-            @ViewBag.QuantityInBasket
-        </td>
-    </tr>
-    <tr>
         <td colspan="3">
-            Total Amount in Basket
+            Total
         </td>
-        <td colspan="3">
+        <td colspan="1">
             @ViewBag.AmountInBasket
         </td>
-    </tr>
+        <td colspan="1">
+            @ViewBag.QuantityInBasket
+        </td>
 
+    </tr>
 </table>

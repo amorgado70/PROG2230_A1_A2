@@ -49,7 +49,7 @@ namespace ConstellationStore.Services
         {
             bool success = true;
             Basket basket = GetBasket(httpContext);
-          
+
             BasketItem item = basket.BasketItems.FirstOrDefault(i => i.ProductID == productId);
             if (item == null)
             {
@@ -96,20 +96,28 @@ namespace ConstellationStore.Services
         {
             int quantity = 0;
             Basket basket = GetBasket(httpContext);
-            quantity = basket.BasketItems.Select(c=>c.Quantity).Sum();
-            return quantity;
+            if (basket != null)
+            {
+                quantity = basket.BasketItems.Select(c => c.Quantity).Sum();
+                return quantity;
+            }
+            return 0;
         }
         public decimal AmountInBasket(HttpContextBase httpContext)
         {
             decimal total = 0;
             Basket basket = GetBasket(httpContext);
-            var itemtotal = basket.BasketItems.Select(c => new{ amount = c.Quantity * c.Product.Price});
-            total = itemtotal.Select(c => c.amount).Sum();
-            return total;
+            if (basket != null)
+            {
+                var itemtotal = basket.BasketItems.Select(c => new { amount = c.Quantity * c.Product.Price });
+                total = itemtotal.Select(c => c.amount).Sum();
+                return total;
+            }
+            return 0;
         }
 
         public bool RemoveFromBasket(int BasketItemID)
-        {            
+        {
 
             basketitems.Delete(basketitems.GetById(BasketItemID));
             basketitems.Commit();

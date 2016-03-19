@@ -1,0 +1,74 @@
+﻿@model IEnumerable<MidTermSolution.Models.BasketItem>
+
+@{
+    ViewBag.Title = "Basket Summary";
+}
+
+<h2>Basket Summary</h2>
+
+<p>
+    @Html.ActionLink("Add To Basket", "AddToBasket")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Product.ImageUrl)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BasketID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Product.ProductDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Product.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img style="width:15%" src="/img/@item.Product.ImageUrl" alt="@item.Product.ProductDescription" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BasketID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.ProductDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.BasketItemID }, "Products") |
+                @Html.ActionLink("Delete", "DeleteFromBasket", new { id = item.BasketItemID })
+            </td>
+        </tr>
+    }
+
+    <tr>
+        <td colspan="4">
+            Number of Items in Basket
+        </td>
+        <td colspan="2">
+            @ViewBag.QuantityInBasket
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            Total Amount in Basket
+        </td>
+        <td colspan="3">
+            @ViewBag.AmountInBasket
+        </td>
+    </tr>
+
+</table>

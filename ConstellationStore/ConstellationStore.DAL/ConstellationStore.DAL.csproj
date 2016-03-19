@@ -51,28 +51,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\DataContext.cs" />
-    <Compile Include="Migrations\201601240324169_Initial.cs" />
-    <Compile Include="Migrations\201601240324169_Initial.Designer.cs">
-      <DependentUpon>201601240324169_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201603191356028_Initial.cs" />
+    <Compile Include="Migrations\201603191356028_Initial.Designer.cs">
+      <DependentUpon>201603191356028_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201601250917292_AddCostPrice.cs" />
-    <Compile Include="Migrations\201601250917292_AddCostPrice.Designer.cs">
-      <DependentUpon>201601250917292_AddCostPrice.cs</DependentUpon>
+    <Compile Include="Migrations\201603191358445_Basket.cs" />
+    <Compile Include="Migrations\201603191358445_Basket.Designer.cs">
+      <DependentUpon>201603191358445_Basket.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\BasketItemRepository.cs" />
+    <Compile Include="Repositories\BasketRepository.cs" />
     <Compile Include="Repositories\CustomerRepository.cs" />
     <Compile Include="Repositories\OrderRepository.cs" />
     <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201601240324169_Initial.resx">
-      <DependentUpon>201601240324169_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201601250917292_AddCostPrice.resx">
-      <DependentUpon>201601250917292_AddCostPrice.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ConstellationStore.Contracts\ConstellationStore.Contracts.csproj">
@@ -85,8 +79,18 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201603191356028_Initial.resx">
+      <DependentUpon>201603191356028_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201603191358445_Basket.resx">
+      <DependentUpon>201603191358445_Basket.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

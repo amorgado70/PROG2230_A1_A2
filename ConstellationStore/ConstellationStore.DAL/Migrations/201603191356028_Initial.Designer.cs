@@ -7,13 +7,13 @@ namespace ConstellationStore.Contracts.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddCostPrice : IMigrationMetadata
+    public sealed partial class Initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddCostPrice));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201601250917292_AddCostPrice"; }
+            get { return "201603191356028_Initial"; }
         }
         
         string IMigrationMetadata.Source

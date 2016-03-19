@@ -61,8 +61,8 @@ C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\Constellati
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\bin\Debug\EntityFramework.xml
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.csprojResolveAssemblyReference.cache
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.Contracts.Migrations.Initial.resources
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.Contracts.Migrations.AddCostPrice.resources
-C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.csproj.GenerateResource.Cache
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.pdb
+C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.Contracts.Migrations.Initial.resources
+C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.csproj.GenerateResource.Cache
+C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.Contracts.Migrations.Basket.resources

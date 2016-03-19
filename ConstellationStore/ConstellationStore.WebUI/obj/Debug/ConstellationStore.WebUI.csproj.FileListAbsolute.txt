@@ -433,3 +433,5 @@ C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\Constellati
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\obj\Debug\ConstellationStore.WebUI.csprojResolveAssemblyReference.cache
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\obj\Debug\ConstellationStore.WebUI.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\obj\Debug\ConstellationStore.WebUI.pdb
+C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.Services.dll
+C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.WebUI\bin\ConstellationStore.Services.pdb

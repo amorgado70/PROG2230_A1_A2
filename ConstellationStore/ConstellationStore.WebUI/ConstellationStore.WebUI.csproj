@@ -286,6 +286,8 @@
     <Content Include="Views\Admin\ProductDetails.cshtml" />
     <Content Include="Views\Admin\ProductDelete.cshtml" />
     <Content Include="Views\Admin\ProductCreate.cshtml" />
+    <Content Include="Views\Products\BasketSummary.cshtml" />
+    <Content Include="Views\Products\DeleteFromBasket.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -310,6 +312,10 @@
     <ProjectReference Include="..\ConstellationStore.Models\ConstellationStore.Models.csproj">
       <Project>{ce1af373-8bf8-4701-8f71-88a8f5a89cb4}</Project>
       <Name>ConstellationStore.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConstellationStore.Services\ConstellationStore.Services.csproj">
+      <Project>{a21c8d2c-de41-4764-84fa-2ded09e88811}</Project>
+      <Name>ConstellationStore.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

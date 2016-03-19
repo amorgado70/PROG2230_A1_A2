@@ -42,6 +42,8 @@ namespace ConstellationStore.WebUI.App_Start
             container.RegisterType<IRepositoryBase<Customer>, CustomerRepository>();
             container.RegisterType<IRepositoryBase<Product>, ProductRepository>();
             container.RegisterType<IRepositoryBase<Order>, OrderRepository>();
+            container.RegisterType<IRepositoryBase<Basket>, BasketRepository>();
+            container.RegisterType<IRepositoryBase<BasketItem>, BasketItemRepository>();
 
         }
     }

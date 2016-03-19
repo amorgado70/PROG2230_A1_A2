@@ -5,18 +5,63 @@ using System.Web.Mvc;
 using ConstellationStore.Models;
 using ConstellationStore.Contracts.Data;
 using ConstellationStore.Contracts.Repositories;
+using ConstellationStore.Services;
 
 namespace ConstellationStore.WebUI.Controllers
 {
     public class ProductsController : Controller
     {
 
+        IRepositoryBase<Customer> customers;
         IRepositoryBase<Product> products;
+        IRepositoryBase<Basket> baskets;
+        IRepositoryBase<BasketItem> basketitems;
+        BasketService basketService;
 
-        public ProductsController(IRepositoryBase<Product> products)
+        public ProductsController(IRepositoryBase<Customer> customers, IRepositoryBase<Product> products, IRepositoryBase<Basket> baskets, IRepositoryBase<BasketItem> basketitems)
         {
+            this.customers = customers;
             this.products = products;
-        }//end Constructor
+            this.baskets = baskets;
+            this.basketitems = basketitems;
+            basketService = new BasketService(this.baskets, this.basketitems);
+        }
+
+
+        public ActionResult AddToBasket(int id)
+        {
+            basketService.AddToBasket(this.HttpContext, id, 1);//always add one to the basket
+            return RedirectToAction("BasketSummary");
+        }
+        public ActionResult BasketSummary()
+        {
+            ViewBag.QuantityInBasket = basketService.QuantityInBasket(this.HttpContext);
+            ViewBag.AmountInBasket = basketService.AmountInBasket(this.HttpContext);
+            var model = basketService.GetBasket(this.HttpContext);
+            if ( model != null ) { 
+            return View(model.BasketItems);
+            }
+            return HttpNotFound();
+        }
+
+        public ActionResult DeleteFromBasket(int id)
+        {
+            var model = basketService.GetBasket(this.HttpContext);
+            BasketItem basketItem = model.BasketItems.Where(i => i.BasketItemID == id).First();
+            if (basketItem == null)
+            {
+                return HttpNotFound();
+            }
+            return View(basketItem);
+        }
+
+        [HttpPost, ActionName("DeleteFromBasket")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirm(int id)
+        {
+            basketService.RemoveFromBasket(id);
+            return RedirectToAction("Index");
+        }
 
         // GET: list with filter
         public ActionResult Index(string searchString, string sortOrder)
@@ -50,71 +95,71 @@ namespace ConstellationStore.WebUI.Controllers
             return View(product);
         }
 
-        // GET: /Details/5
-        public ActionResult Details(int? id)
-        {
-            var product = products.GetById(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
-            return View(product);
-        }
+        //// GET: /Details/5
+        //public ActionResult Details(int? id)
+        //{
+        //    var product = products.GetById(id);
+        //    if (product == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(product);
+        //}
 
-        // GET: /Create
-        public ActionResult Create()
-        {
-            var product = new Product();
-            return View(product);
-        }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(Product product)
-        {
-            products.Insert(product);
-            products.Commit();
+        //// GET: /Create
+        //public ActionResult Create()
+        //{
+        //    var product = new Product();
+        //    return View(product);
+        //}
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Create(Product product)
+        //{
+        //    products.Insert(product);
+        //    products.Commit();
 
-            return RedirectToAction("Index");
-        }
+        //    return RedirectToAction("Index");
+        //}
 
-        // GET: /Edit/5
-        public ActionResult Edit(int id)
-        {
-            Product product = products.GetById(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
-            return View(product);
-        }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(Product product)
-        {
-            products.Update(product);
-            products.Commit();
+        //// GET: /Edit/5
+        //public ActionResult Edit(int id)
+        //{
+        //    Product product = products.GetById(id);
+        //    if (product == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(product);
+        //}
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Edit(Product product)
+        //{
+        //    products.Update(product);
+        //    products.Commit();
 
-            return RedirectToAction("Index");
-        }
+        //    return RedirectToAction("Index");
+        //}
 
-        // GET: /Delete/5
-        public ActionResult Delete(int id)
-        {
-            Product product = products.GetById(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
-            return View(product);
-        }
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirm(int id)
-        {
-            products.Delete(products.GetById(id));
-            products.Commit();
-            return RedirectToAction("Index");
-        }
+        //// GET: /Delete/5
+        //public ActionResult Delete(int id)
+        //{
+        //    Product product = products.GetById(id);
+        //    if (product == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(product);
+        //}
+        //[HttpPost, ActionName("Delete")]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult DeleteConfirm(int id)
+        //{
+        //    products.Delete(products.GetById(id));
+        //    products.Commit();
+        //    return RedirectToAction("Index");
+        //}
 
     }
 }

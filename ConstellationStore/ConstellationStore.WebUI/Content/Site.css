@@ -26,3 +26,74 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.carousel-caption{
+    right: -50%;
+    top: 2%;
+}
+.carousel-indicators{
+    left: 90%;
+    top: 32%;
+}
+
+/* The solution below was based on http://www.sitepoint.com/css3-starwars-scrolling-text/ */
+#titles {
+    position: absolute;
+    width: 18em;
+    height: 50em;
+    bottom: 0;
+    left: 50%;
+    margin-left: -9em;
+    font-size: 350%;
+    font-weight: bold;
+    text-align: justify;
+    overflow: hidden;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -moz-transform: perspective(300px) rotateX(25deg);
+    -ms-transform: perspective(300px) rotateX(25deg);
+    -o-transform: perspective(300px) rotateX(25deg);
+    -webkit-transform: perspective(300px) rotateX(25deg);
+    transform: perspective(300px) rotateX(25deg);
+}
+
+#titles:after {
+	position: absolute;
+	content: ' ';
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 60%;
+	background-image: linear-gradient(top, rgba(0,0,0,1) 0, transparent 100%);
+	pointer-events: none;
+}
+
+#titlecontent {
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    -moz-animation: scroll 300s linear 0s infinite; 
+    -o-animation: scroll 300s linear 0s infinite;
+    -webkit-animation: scroll 300s linear 0s infinite;
+    animation: scroll 300s linear 0s infinite;
+}
+
+@-moz-keyframes scroll {
+	0% { top: 98%; }
+	100% { top: -170%; }
+}
+
+@-webkit-keyframes scroll {
+	0% { top: 98%; }
+	100% { top: -170%; }
+}
+
+@keyframes scroll {
+	0% { top: 98%; }
+	100% { top: -170%; }
+}

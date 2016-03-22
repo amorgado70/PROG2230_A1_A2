@@ -83,3 +83,20 @@ E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\
 E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.csproj.GenerateResource.Cache
 E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.dll
 E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.pdb
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\bin\Debug\ConstellationStore.DAL.dll.config
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\bin\Debug\ConstellationStore.DAL.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\bin\Debug\ConstellationStore.DAL.pdb
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\bin\Debug\ConstellationStore.Contracts.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\bin\Debug\ConstellationStore.Models.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\bin\Debug\EntityFramework.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\bin\Debug\ConstellationStore.Contracts.pdb
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\bin\Debug\ConstellationStore.Models.pdb
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\bin\Debug\EntityFramework.xml
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.csprojResolveAssemblyReference.cache
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.Contracts.Migrations.Initial.resources
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.Contracts.Migrations.Basket.resources
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.csproj.GenerateResource.Cache
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.DAL\obj\Debug\ConstellationStore.DAL.pdb

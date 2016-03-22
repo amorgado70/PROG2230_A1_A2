@@ -1,6 +1,7 @@
 Working environment:
 - Visual Studio 2013
 - Database SQL 2014 Express (MSSQLLocalDB)
+- Testing using Google Chrome
 
 Extra features:
 - Number of items in basket shown at the bottom of basket page

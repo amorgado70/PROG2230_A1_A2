@@ -50,3 +50,29 @@ E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\D
 E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.csprojResolveAssemblyReference.cache
 E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.dll
 E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.pdb
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Services.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Services.pdb
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Contracts.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.DAL.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Models.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Helpers.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Mvc.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Razor.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\EntityFramework.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Contracts.pdb
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.DAL.pdb
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Models.pdb
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Helpers.xml
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Mvc.xml
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Razor.xml
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.xml
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\bin\Debug\EntityFramework.xml
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.csprojResolveAssemblyReference.cache
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.dll
+C:\Users\amorgado1650\Desktop\PROG2230_A3-master\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.pdb

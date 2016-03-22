@@ -27,6 +27,10 @@ textarea {
     max-width: 280px;
 }
 
+.thumb-img{
+    max-width: 200px;
+}
+
 .carousel-caption{
     right: -50%;
     top: 2%;

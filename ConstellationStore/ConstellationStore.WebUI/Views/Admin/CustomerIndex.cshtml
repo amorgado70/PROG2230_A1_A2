@@ -5,7 +5,20 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Customers Index</h2>
+<h2></h2>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-10" style="font-weight: 500;font-size: 2em;">
+            Customers Index
+        </div>
+        <div class="col-xs-2">
+            <a href="@Url.Action("Index", "Admin")" class="btn btn-success pull-right">
+                Back to Admin &nbsp;
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class="row margin-top-10">

@@ -24,3 +24,29 @@ C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\Constellati
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.csprojResolveAssemblyReference.cache
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.dll
 C:\Users\amorgado\Documents\GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.pdb
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Services.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Services.pdb
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Contracts.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.DAL.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Models.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Helpers.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Mvc.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Razor.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.Razor.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\EntityFramework.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Contracts.pdb
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.DAL.pdb
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\ConstellationStore.Models.pdb
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Helpers.xml
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Mvc.xml
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.Razor.xml
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.xml
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\System.Web.WebPages.Razor.xml
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\bin\Debug\EntityFramework.xml
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.csprojResolveAssemblyReference.cache
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.dll
+E:\85 GitHub\PROG2230_A1_A2\ConstellationStore\ConstellationStore.Services\obj\Debug\ConstellationStore.Services.pdb

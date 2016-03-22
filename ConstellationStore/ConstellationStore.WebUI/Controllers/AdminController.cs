@@ -24,6 +24,12 @@ namespace ConstellationStore.WebUI.Controllers
             this.orders = orders;
         }
 
+        // GET: Admin
+        public ActionResult Index()
+        {
+            return View();
+        }
+
         public ActionResult ProductIndex(string searchString, string sortOrder)
         {
             var product = products.GetAll();

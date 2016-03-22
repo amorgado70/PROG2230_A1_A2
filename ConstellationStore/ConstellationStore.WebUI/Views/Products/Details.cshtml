@@ -24,7 +24,9 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.ImageUrl)
+            <div class="col-xs-2">
+                <img class="img-responsive img-rounded" src="@Html.DisplayFor(model => model.ImageUrl)" alt="@Html.DisplayFor(model => model.ImageUrl)">
+            </div>
         </dd>
 
         <dt>

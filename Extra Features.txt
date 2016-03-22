@@ -1,0 +1,8 @@
+Working environment:
+- Visual Studio 2013
+- Database SQL 2014 Express (MSSQLLocalDB)
+
+Extra features:
+- Number of items in basket shown at the bottom of basket page
+- Total amount for items in basket shown at the bottom of basket page
+- Number of items in basket shown in the page navbar
